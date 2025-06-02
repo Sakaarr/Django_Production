@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "pages",
     "crispy_forms", # new
     "crispy_bootstrap5",
+    "books",
 ]
 # django-allauth config
 
