@@ -22,7 +22,7 @@ from django.conf import settings
 import debug_toolbar
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path("anything-but-admin/", admin.site.urls),
     path("accounts/", include("allauth.urls")),  # Custom user accounts app
     path("",include("pages.urls")),  # Include URLs from the pages app
     path("books/", include("books.urls")),  # Include URLs from the books app
